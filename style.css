@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ruda', sans-serif;
+}
+.overall{
+    position: relative;
+    height:3200px;
+    width: 100%;
+    background-color:#000000;
+    
+}
+.head{
+    position: fixed;
+    height: 120px;
+    max-width: 100%;
+    width:100%;
+    top: 0px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.left{
+    position: absolute;
+    width:100px;
+    height:120px;
+    left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  width:20%;
+  overflow: hidden;
+}
+.left p{
+    position: fixed;
+    color: #FFFFFF;
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 0px;
+letter-spacing: 0.06em;
+border: 1px solid #000000;
+
+}
+.center{
+    position: absolute;
+    left:280px;
+    height: 120px;
+    width:700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center p{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 20px;
+line-height: 0px;
+letter-spacing: 0.06em;
+}
+.right{
+    position: fixed;
+    left:1050px;
+    display: flex;
+    align-items: center;
+}
+.Main-content{
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    overflow-y: hidden;
+}
+.Main-content img{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+.Main-content h1{
+    position: absolute;
+    top: 140px;
+    width: 50%;
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 108px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+
+}
+.line{
+    box-sizing: border-box;
+
+position: absolute;
+width: 586px;
+height: 13px;
+left: 30px;
+top: 380px;
+
+background: #F24C4C;
+box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+.Main-content p{
+    position: absolute;
+    width: 599px;
+    height: 325px;
+    left: 30px;
+    top: 425px;
+    font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+.about{
+    position: absolute;
+    top:950px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about h1{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+}
+.about .line{
+    position: absolute;
+    top:50px;
+    left:480px;
+    height: 10px;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dough{
+    position: absolute;
+    top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+}
+.dough-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+}
+.dough-info p{
+    position: relative;
+    color: #FFFFFF;
+    top:50px;
+    left: 10px;
+    margin: 20px;
+    font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+}
+.dough-info .line{
+    left: 30px;
+    width: 50%;
+    height: 5px;
+}
+.dough-img{
+   width: 40%;
+}
+.dough-img img{
+    position: relative;
+    top:60px;
+    max-width: 90%;
+}
+.menu{
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+    height: 100px;
+    /* background-color: #FFFFFF; */
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+}
+.menu h1{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    height: 50px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #FFFFFF;
+}
+.menu .line{
+    left: 380px;
+    top: 45px;
+    height: 10px;
+    width: 40%;
+}
+.pizza-info{
+    position: absolute;
+    left: 50px;
+    width: 85%;
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.grids{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.grids .piz{
+    width: 100%;
+    margin: 5px;
+}
+.grids .piz .lorem{
+    font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 0px;
+ color: #F2C94C;
+}
+.grids .piz .ipsum{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 200% */
+    
+    letter-spacing: 0.09em;
+    
+    color: #FFFFFF;
+}
+.find{
+    width: 100%;
+    position: absolute;
+    top:2550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find h1{
+    color: #FFFFFF;
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+height: 60px;
+}
+.find .line{
+    position: relative;
+    top:-15px;
+    left:15px;
+    width:25%;
+}
+.fined{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.imag{
+    width: 100%;
+}
+.imag img{
+    width: 100%;
+}
+.loc > p{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+    color: #FFFFFF;
+    width: 70%;
+    margin: 10px;
+}
+.ph{
+    font-family: 'Ruda';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+margin: 10px;
+}
+.locs{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:540px) {
+    .head{
+        flex-direction: column;
+    }
+}
